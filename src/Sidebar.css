@@ -1,0 +1,22 @@
+.sidebar {
+  flex: 0.3;
+  max-width: 300px;
+  padding-right: 20px;
+}
+
+.button__compose {
+  padding: 20px;
+}
+
+.button__compose > Button {
+  font-size: 18px;
+  width: 130px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.sidebar__footer {
+  display: flex;
+  justify-content: center;
+}

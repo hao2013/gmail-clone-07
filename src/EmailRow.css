@@ -1,0 +1,43 @@
+.emailRow {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  z-index: 999;
+}
+.emailRow:hover {
+  box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0,
+    0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.emailRow__options {
+  display: flex;
+  align-items: center;
+}
+.emailRow__title {
+  font-size: 13px;
+  flex: 0.2;
+}
+.emailRow__message {
+  display: flex;
+  flex: 0.8;
+  align-items: center;
+  font-size: 13px;
+}
+.emailRow__message > h4 {
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 10px;
+}
+.emailRow__description {
+  font-weight: 400;
+  color: #202124;
+  padding-left: 10px;
+}
+.emailRow__time {
+  font-size: 9px;
+  padding-right: 15px;
+  font-weight: bold;
+}
